@@ -1,0 +1,15 @@
+wp-admin
+wp-includes
+.htaccess
+wp-config.php
+uploads
+upgrade
+ai1wm-backups
+.logs
+litespeed
+temp
+wflogs
+
+twentytwentyone
+twentytwentythree
+twentytwentytwo

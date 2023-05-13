@@ -1,0 +1,762 @@
+# Copyright (C) 2023 HivePress
+# This file is distributed under the same license as the HivePress Bookings plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: HivePress Bookings 1.5.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/hivepress-bookings\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-05-01T17:19:44+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: hivepress-bookings\n"
+
+#. Plugin Name of the plugin
+msgid "HivePress Bookings"
+msgstr ""
+
+#. Description of the plugin
+msgid "Allow users to book listings."
+msgstr ""
+
+#. Author of the plugin
+msgid "HivePress"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://hivepress.io/"
+msgstr ""
+
+#: includes/blocks/class-booking-calendar.php:265
+#: includes/configs/scripts.php:24
+msgid "Change Price"
+msgstr ""
+
+#: includes/components/class-booking.php:181
+msgid "Booking Offset"
+msgstr ""
+
+#: includes/components/class-booking.php:182
+msgid "Set how many days are required prior to the booking date."
+msgstr ""
+
+#: includes/components/class-booking.php:193
+msgid "Booking Window"
+msgstr ""
+
+#: includes/components/class-booking.php:194
+msgid "Set how many days in advance a booking can be made."
+msgstr ""
+
+#: includes/components/class-booking.php:205
+msgid "Booking Available From"
+msgstr ""
+
+#: includes/components/class-booking.php:206
+msgid "Set the earliest time available for booking."
+msgstr ""
+
+#: includes/components/class-booking.php:218
+msgid "Booking Available To"
+msgstr ""
+
+#: includes/components/class-booking.php:219
+msgid "Set the latest time available for booking."
+msgstr ""
+
+#: includes/components/class-booking.php:231
+msgid "Minimum Booking Duration"
+msgstr ""
+
+#: includes/components/class-booking.php:232
+msgid "Set the minimum booking duration in days."
+msgstr ""
+
+#: includes/components/class-booking.php:244
+msgid "Maximum Booking Duration"
+msgstr ""
+
+#: includes/components/class-booking.php:245
+msgid "Set the maximum booking duration in days."
+msgstr ""
+
+#: includes/components/class-booking.php:257
+msgid "Booking Slot Interval"
+msgstr ""
+
+#: includes/components/class-booking.php:258
+msgid "Set the interval between time slots in minutes."
+msgstr ""
+
+#: includes/components/class-booking.php:271
+msgid "Booking Requests"
+msgstr ""
+
+#: includes/components/class-booking.php:272
+msgid "Manually accept new bookings"
+msgstr ""
+
+#: includes/components/class-booking.php:287
+msgid "Booking Import URL"
+msgstr ""
+
+#: includes/components/class-booking.php:288
+msgid "Set the external ICS calendar URL to sync the availability."
+msgstr ""
+
+#: includes/components/class-booking.php:298
+msgid "Booking Export URL"
+msgstr ""
+
+#: includes/components/class-booking.php:299
+msgid "Use this URL to sync the availability of external ICS calendars."
+msgstr ""
+
+#: includes/components/class-booking.php:382
+msgctxt "pricing"
+msgid "per place per day"
+msgstr ""
+
+#: includes/components/class-booking.php:383
+msgctxt "pricing"
+msgid "per place"
+msgstr ""
+
+#: includes/components/class-booking.php:384
+#: includes/components/class-booking.php:387
+msgctxt "pricing"
+msgid "per day"
+msgstr ""
+
+#: includes/components/class-booking.php:390
+msgctxt "pricing"
+msgid "per booking"
+msgstr ""
+
+#: includes/components/class-booking.php:922
+msgid "Extras"
+msgstr ""
+
+#: includes/components/class-booking.php:1005
+msgid "Booking Slot Duration"
+msgstr ""
+
+#: includes/components/class-booking.php:1006
+msgid "Set the time slot duration in minutes."
+msgstr ""
+
+#: includes/components/class-booking.php:1057
+#: includes/configs/settings.php:22
+#: templates/booking/view/page/booking-notes.php:24
+msgid "Booking Note"
+msgstr ""
+
+#: includes/components/class-booking.php:1058
+msgid "Add a note that will be revealed to the customer upon booking."
+msgstr ""
+
+#: includes/components/class-booking.php:1072
+msgid "Daily Prices"
+msgstr ""
+
+#: includes/components/class-booking.php:1078
+#: includes/components/class-booking.php:1248
+msgid "Days"
+msgstr ""
+
+#. translators: %s: amount.
+#: includes/components/class-booking.php:1101
+msgid "Security Deposit: %s"
+msgstr ""
+
+#. translators: %s: price.
+#: includes/components/class-booking.php:1227
+msgid "%s / day"
+msgstr ""
+
+#. translators: %s: price.
+#: includes/components/class-booking.php:1231
+msgid "%s / night"
+msgstr ""
+
+#: includes/components/class-booking.php:1255
+msgid "Booking Days"
+msgstr ""
+
+#: includes/components/class-booking.php:1256
+msgid "Select the days of the week available for booking."
+msgstr ""
+
+#: includes/components/class-booking.php:1269
+msgid "Booking Timezone"
+msgstr ""
+
+#: includes/components/class-booking.php:1270
+msgid "Select the timezone for bookings."
+msgstr ""
+
+#: includes/components/class-booking.php:1949
+msgid "Start"
+msgstr ""
+
+#: includes/components/class-booking.php:1950
+msgid "End"
+msgstr ""
+
+#: includes/components/class-booking.php:1952
+msgid "Start Time"
+msgstr ""
+
+#: includes/components/class-booking.php:1953
+msgid "End Time"
+msgstr ""
+
+#: includes/components/class-booking.php:2138
+#: includes/components/class-booking.php:2281
+#: includes/components/class-booking.php:3137
+#: includes/forms/class-booking-make.php:51
+msgid "Dates"
+msgstr ""
+
+#: includes/components/class-booking.php:2710
+#: includes/components/class-booking.php:2779
+msgid "Date"
+msgstr ""
+
+#: includes/components/class-booking.php:2714
+msgid "Time"
+msgstr ""
+
+#: includes/components/class-booking.php:2728
+msgid "Please select one or more subsequent time slots."
+msgstr ""
+
+#: includes/components/class-booking.php:2736
+#: includes/components/class-booking.php:3053
+msgid "Timezone"
+msgstr ""
+
+#: includes/components/class-booking.php:2915
+msgid "End date only"
+msgstr ""
+
+#: includes/components/class-booking.php:2952
+msgid "Request to Book"
+msgstr ""
+
+#. translators: 1: extra name, 2: extra price.
+#: includes/components/class-booking.php:2991
+msgctxt "price extra format"
+msgid "%1$s (%2$s)"
+msgstr ""
+
+#: includes/components/class-booking.php:3078
+msgid "Send Request"
+msgstr ""
+
+#: includes/components/class-booking.php:3080
+msgid "Proceed to Payment"
+msgstr ""
+
+#: includes/components/class-booking.php:3208
+#: includes/configs/post-types.php:22
+#: includes/configs/post-types.php:28
+#: includes/configs/settings.php:33
+#: includes/controllers/class-booking.php:110
+#: includes/templates/class-bookings-view-page.php:30
+#: includes/templates/class-bookings-view-page.php:51
+#: includes/templates/class-listing-bookings-page.php:30
+#: includes/templates/class-listing-bookings-page.php:51
+msgid "Bookings"
+msgstr ""
+
+#: includes/components/class-booking.php:3216
+#: includes/configs/meta-boxes.php:66
+#: includes/configs/meta-boxes.php:78
+#: includes/controllers/class-booking.php:162
+#: includes/templates/class-listing-calendar-page.php:30
+#: includes/templates/class-listing-calendar-page.php:51
+#: includes/templates/class-vendor-calendar-page.php:30
+#: includes/templates/class-vendor-calendar-page.php:51
+#: templates/listing/edit/block/listing-calendar-link.php:7
+msgid "Calendar"
+msgstr ""
+
+#: includes/components/class-booking.php:3315
+msgid "Booking Form"
+msgstr ""
+
+#: includes/configs/meta-boxes.php:58
+msgid "Canceled by user"
+msgstr ""
+
+#: includes/configs/post-types.php:24
+msgctxt "booking"
+msgid "Add New"
+msgstr ""
+
+#: includes/configs/post-types.php:25
+#: includes/configs/post-types.php:27
+msgid "Add Booking"
+msgstr ""
+
+#: includes/configs/post-types.php:26
+msgid "Edit Booking"
+msgstr ""
+
+#: includes/configs/post-types.php:29
+msgid "Search Bookings"
+msgstr ""
+
+#: includes/configs/post-types.php:30
+#: includes/configs/post-types.php:31
+#: includes/controllers/class-booking.php:1455
+#: includes/controllers/class-booking.php:1521
+msgid "No bookings found."
+msgstr ""
+
+#: includes/configs/scripts.php:22
+msgid "Block"
+msgstr ""
+
+#: includes/configs/scripts.php:23
+msgid "Unblock"
+msgstr ""
+
+#: includes/configs/settings.php:38
+#: includes/configs/settings.php:67
+msgid "Availability"
+msgstr ""
+
+#: includes/configs/settings.php:43
+msgid "Booking Categories"
+msgstr ""
+
+#: includes/configs/settings.php:44
+msgid "Select categories where booking should be available, or leave empty for all categories."
+msgstr ""
+
+#: includes/configs/settings.php:53
+msgid "Blocking Statuses"
+msgstr ""
+
+#: includes/configs/settings.php:54
+msgid "Select which booking statuses in addition to Confirmed should block the dates."
+msgstr ""
+
+#: includes/configs/settings.php:61
+#: includes/models/class-booking.php:52
+msgctxt "booking"
+msgid "Unpaid"
+msgstr ""
+
+#: includes/configs/settings.php:62
+#: includes/models/class-booking.php:53
+msgctxt "booking"
+msgid "Pending"
+msgstr ""
+
+#: includes/configs/settings.php:68
+msgid "Manage availability per vendor"
+msgstr ""
+
+#: includes/configs/settings.php:69
+msgid "Check this option to manage the availability per vendor instead of per listing."
+msgstr ""
+
+#: includes/configs/settings.php:75
+msgid "Syncing"
+msgstr ""
+
+#: includes/configs/settings.php:76
+msgid "Allow syncing with external calendars"
+msgstr ""
+
+#: includes/configs/settings.php:77
+msgid "Check this option to allow syncing the availability with external ICS calendars."
+msgstr ""
+
+#: includes/configs/settings.php:84
+msgid "Allow multiple places per booking"
+msgstr ""
+
+#: includes/configs/settings.php:85
+msgid "Check this option to allow reserving multiple places per booking."
+msgstr ""
+
+#: includes/configs/settings.php:91
+msgid "Allow multiple bookings per time period"
+msgstr ""
+
+#: includes/configs/settings.php:92
+msgid "Check this option to allow reservations until the places are filled."
+msgstr ""
+
+#: includes/configs/settings.php:99
+msgid "Daily Bookings"
+msgstr ""
+
+#: includes/configs/settings.php:100
+msgid "Enable daily bookings"
+msgstr ""
+
+#: includes/configs/settings.php:101
+msgid "Check this option to enable daily instead of overnight bookings."
+msgstr ""
+
+#: includes/configs/settings.php:107
+msgid "Time Slots"
+msgstr ""
+
+#: includes/configs/settings.php:108
+msgid "Enable time slots"
+msgstr ""
+
+#: includes/configs/settings.php:109
+msgid "Check this option to enable time instead of date based bookings."
+msgstr ""
+
+#: includes/configs/settings.php:115
+msgid "Allow booking multiple time slots"
+msgstr ""
+
+#: includes/configs/settings.php:116
+msgid "Check this option to allow reserving multiple time slots per booking."
+msgstr ""
+
+#: includes/configs/settings.php:123
+msgid "Time Categories"
+msgstr ""
+
+#: includes/configs/settings.php:124
+msgid "Select categories where time-based bookings should be enabled, or leave empty for all categories."
+msgstr ""
+
+#: includes/configs/settings.php:134
+msgid "Time Zones"
+msgstr ""
+
+#: includes/configs/settings.php:135
+msgid "Enable time zones"
+msgstr ""
+
+#: includes/configs/settings.php:136
+msgid "Check this option to enable the time zone indication for bookings."
+msgstr ""
+
+#: includes/configs/settings.php:145
+msgid "Pricing"
+msgstr ""
+
+#: includes/configs/settings.php:151
+msgid "Enable variable pricing"
+msgstr ""
+
+#: includes/configs/settings.php:152
+msgid "Check this option to allow setting custom prices per time period."
+msgstr ""
+
+#: includes/configs/settings.php:158
+msgid "Multiply price by the number of places"
+msgstr ""
+
+#: includes/configs/settings.php:159
+msgid "Check this option if the booking price depends on the number of places."
+msgstr ""
+
+#: includes/configs/settings.php:168
+msgid "Allow security deposits"
+msgstr ""
+
+#: includes/configs/settings.php:169
+msgid "Check this option to allow charging extra amount and refunding it once the booking is over."
+msgstr ""
+
+#: includes/configs/settings.php:177
+msgid "Confirmation"
+msgstr ""
+
+#: includes/configs/settings.php:182
+msgid "Booking Terms Page"
+msgstr ""
+
+#: includes/configs/settings.php:183
+msgid "Choose a page with terms that user has to accept before making a booking."
+msgstr ""
+
+#: includes/configs/settings.php:199
+msgid "Set the number of days after which a pending or unpaid booking is canceled."
+msgstr ""
+
+#: includes/configs/settings.php:208
+msgid "Set the number of days after which a past or canceled booking is deleted."
+msgstr ""
+
+#: includes/configs/strings.php:14
+msgid "Booking"
+msgstr ""
+
+#: includes/configs/strings.php:15
+msgid "Start Date"
+msgstr ""
+
+#: includes/configs/strings.php:16
+msgid "End Date"
+msgstr ""
+
+#: includes/configs/strings.php:17
+msgid "Places"
+msgstr ""
+
+#: includes/configs/strings.php:18
+msgid "Security Deposit"
+msgstr ""
+
+#. translators: %s: number.
+#: includes/configs/strings.php:20
+msgid "Places: %s"
+msgstr ""
+
+#: includes/configs/strings.php:21
+msgid "Minimum Places per Booking"
+msgstr ""
+
+#: includes/configs/strings.php:22
+msgid "Maximum Places per Booking"
+msgstr ""
+
+#: includes/configs/strings.php:23
+msgid "Allow vendors to add booking notes"
+msgstr ""
+
+#: includes/controllers/class-booking.php:260
+msgid "The start date can't be later than the end date."
+msgstr ""
+
+#. translators: %s: date.
+#: includes/controllers/class-booking.php:286
+msgid "The start date can't be earlier than %s."
+msgstr ""
+
+#. translators: %s: date.
+#: includes/controllers/class-booking.php:293
+msgid "The end date can't be later than %s."
+msgstr ""
+
+#: includes/controllers/class-booking.php:304
+msgid "The booking period is too short."
+msgstr ""
+
+#: includes/controllers/class-booking.php:315
+msgid "The booking period is too long."
+msgstr ""
+
+#: includes/controllers/class-booking.php:342
+msgid "These dates are not available for booking."
+msgstr ""
+
+#. translators: %s: booking number.
+#: includes/controllers/class-booking.php:1083
+#: templates/booking/view/block/booking-title.php:9
+#: templates/booking/view/page/booking-title.php:8
+msgid "Booking %s"
+msgstr ""
+
+#: includes/controllers/class-booking.php:1375
+#: includes/emails/class-booking-request.php:30
+#: includes/emails/class-booking-request.php:48
+msgid "Booking Requested"
+msgstr ""
+
+#: includes/controllers/class-booking.php:1377
+#: includes/controllers/class-booking.php:1493
+#: includes/emails/class-booking-confirm-user.php:49
+#: includes/emails/class-booking-confirm-vendor.php:49
+msgid "Booking Confirmed"
+msgstr ""
+
+#: includes/controllers/class-booking.php:1495
+msgid "Booking Received"
+msgstr ""
+
+#: includes/controllers/class-booking.php:1783
+msgctxt "dates"
+msgid "Blocked"
+msgstr ""
+
+#: includes/emails/class-booking-accept.php:30
+#: includes/emails/class-booking-accept.php:48
+msgid "Booking Accepted"
+msgstr ""
+
+#: includes/emails/class-booking-accept.php:49
+msgid "Hi, %user_name%! Your booking request for \"%listing_title%\" has been accepted, click on the following link to view it: %booking_url%"
+msgstr ""
+
+#. translators: %s: recipient.
+#: includes/emails/class-booking-cancel-user.php:31
+#: includes/emails/class-booking-cancel-vendor.php:31
+msgid "Booking Canceled (%s)"
+msgstr ""
+
+#: includes/emails/class-booking-cancel-user.php:49
+#: includes/emails/class-booking-cancel-vendor.php:49
+msgid "Booking Canceled"
+msgstr ""
+
+#: includes/emails/class-booking-cancel-user.php:50
+msgid "Hi, %user_name%! Your booking of \"%listing_title%\" has been canceled, click on the following link to view it: %booking_url%"
+msgstr ""
+
+#: includes/emails/class-booking-cancel-vendor.php:50
+msgid "Hi, %user_name%! A booking of \"%listing_title%\" has been canceled, click on the following link to view it: %booking_url%"
+msgstr ""
+
+#. translators: %s: recipient.
+#: includes/emails/class-booking-confirm-user.php:31
+#: includes/emails/class-booking-confirm-vendor.php:31
+msgid "Booking Confirmed (%s)"
+msgstr ""
+
+#: includes/emails/class-booking-confirm-user.php:50
+msgid "Hi, %user_name%! Your booking of \"%listing_title%\" has been confirmed, click on the following link to view it: %booking_url%"
+msgstr ""
+
+#: includes/emails/class-booking-confirm-vendor.php:50
+msgid "Hi, %user_name%! A booking of \"%listing_title%\" has been confirmed, click on the following link to view it: %booking_url%"
+msgstr ""
+
+#: includes/emails/class-booking-decline.php:30
+#: includes/emails/class-booking-decline.php:48
+msgid "Booking Declined"
+msgstr ""
+
+#: includes/emails/class-booking-decline.php:49
+msgid "Hi, %user_name%! Your booking request for \"%listing_title%\" %booking_url% has been declined for the following reason: %decline_reason%"
+msgstr ""
+
+#: includes/emails/class-booking-remind.php:30
+#: includes/emails/class-booking-remind.php:48
+msgid "Booking Reminder"
+msgstr ""
+
+#: includes/emails/class-booking-request.php:49
+msgid "Hi, %user_name%! You've received a new booking request for \"%listing_title%\", click on the following link to view it: %booking_url%"
+msgstr ""
+
+#: includes/forms/class-booking-accept.php:46
+msgid "Are you sure you want to accept this booking request?"
+msgstr ""
+
+#: includes/forms/class-booking-accept.php:50
+#: includes/templates/class-booking-view-page.php:185
+#: templates/booking/view/page/booking-accept-link.php:7
+msgid "Accept Booking"
+msgstr ""
+
+#: includes/forms/class-booking-cancel.php:46
+msgid "Are you sure you want to cancel this booking?"
+msgstr ""
+
+#: includes/forms/class-booking-cancel.php:51
+#: includes/templates/class-booking-view-page.php:215
+#: templates/booking/view/page/booking-cancel-link.php:9
+msgid "Cancel Booking"
+msgstr ""
+
+#: includes/forms/class-booking-confirm.php:30
+#: includes/forms/class-booking-confirm.php:61
+#: includes/templates/class-booking-make-complete-page.php:30
+#: includes/templates/class-booking-make-details-page.php:30
+#: includes/templates/class-booking-pay-complete-page.php:30
+msgid "Confirm Booking"
+msgstr ""
+
+#: includes/forms/class-booking-decline.php:50
+msgid "Reason"
+msgstr ""
+
+#: includes/forms/class-booking-decline.php:60
+#: includes/templates/class-booking-view-page.php:200
+#: templates/booking/view/page/booking-decline-link.php:9
+msgid "Decline Booking"
+msgstr ""
+
+#: includes/forms/class-booking-make.php:66
+msgid "Book Now"
+msgstr ""
+
+#: includes/models/class-booking.php:38
+#: includes/templates/class-booking-view-page.php:120
+msgid "Notes"
+msgstr ""
+
+#: includes/models/class-booking.php:50
+#: includes/templates/class-booking-view-page.php:88
+msgctxt "booking"
+msgid "Confirmed"
+msgstr ""
+
+#: includes/models/class-booking.php:55
+#: includes/templates/class-booking-view-page.php:95
+msgctxt "booking"
+msgid "Canceled"
+msgstr ""
+
+#: includes/templates/class-booking-pay-complete-page.php:30
+msgid "Payment"
+msgstr ""
+
+#. translators: %s: listing title.
+#: templates/booking/make/booking-complete-message.php:9
+msgid "Thank you! Your booking request for \"%s\" has been sent and will be processed as soon as possible."
+msgstr ""
+
+#. translators: %1$s: listing title, %2$s: booking number.
+#: templates/booking/make/booking-complete-message.php:12
+msgid "Thank you! Your booking of \"%1$s\" has been confirmed, the booking reference number is %2$s."
+msgstr ""
+
+#: templates/booking/make/booking-complete-message.php:16
+#: templates/booking/pay/booking-complete-message.php:15
+msgid "View Booking"
+msgstr ""
+
+#: templates/booking/make/booking-dates-change-link.php:7
+msgid "Change Time"
+msgstr ""
+
+#: templates/booking/make/booking-dates-change-link.php:7
+msgid "Change Dates"
+msgstr ""
+
+#. translators: %1$s: listing title, %2$s: booking number.
+#: templates/booking/pay/booking-complete-message.php:9
+msgid "Thank you for your payment! Your booking of \"%1$s\" has been confirmed, the booking reference number is %2$s."
+msgstr ""
+
+#: templates/booking/pay/booking-complete-message.php:11
+msgid "Thank you for your payment! Once the payment is processed, you will receive a booking confirmation via email."
+msgstr ""
+
+#: templates/booking/view/block/booking-pay-link.php:7
+#: templates/booking/view/page/booking-pay-link.php:7
+msgid "Pay Now"
+msgstr ""
+
+#. translators: %1$s: cancellation date, %2$s: user name.
+#: templates/booking/view/booking-canceled-date.php:11
+msgid "Canceled on %1$s by %2$s"
+msgstr ""
+
+#. translators: %1$s: booking date, %2$s: user name.
+#: templates/booking/view/booking-created-date.php:8
+msgid "Booked on %1$s by %2$s"
+msgstr ""
+
+#: templates/booking/view/page/booking-notes.php:11
+msgid "Customer Note"
+msgstr ""

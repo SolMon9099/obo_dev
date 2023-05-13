@@ -1,0 +1,83 @@
+.hp {
+	/*--------------------------------------------------------------
+	Testimonials
+	--------------------------------------------------------------*/
+	&-testimonial {
+		display: flex;
+
+		&__image {
+			flex: 0 0 6.25rem;
+			margin-right: 1.5rem;
+
+			img {
+				display: block;
+				width: 100%;
+				height: auto;
+				border-radius: 50%;
+			}
+		}
+
+		&__content {
+			flex: 1;
+			min-width: 0;
+		}
+
+		&__text {
+			font-size: 120%;
+
+			&:not(:last-child) {
+				margin-bottom: 1rem;
+			}
+
+			p {
+				margin-bottom: 0.5rem;
+
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+
+		&__author {
+			margin: 0;
+		}
+
+		&__author,
+		&__position {
+			&:not(:last-child) {
+				margin-bottom: 0.5rem;
+			}
+		}
+	}
+	/*--------------------------------------------------------------
+	Features
+	--------------------------------------------------------------*/
+	&-feature {
+		&:not(:last-child) {
+			margin-bottom: 1rem;
+		}
+
+		i {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		&__icon {
+			margin: 0 auto;
+			width: 5.5rem;
+			height: 5.5rem;
+			border-radius: 50%;
+			background-color: rgba(0,0,0,.06);
+			font-size: 32px;
+
+			&:not(:last-child) {
+				margin-bottom: 1rem;
+			}
+		}
+
+		&__caption {
+			text-align: center;
+		}
+	}
+}

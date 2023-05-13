@@ -1,0 +1,6 @@
+May 13 2023 09:23:47
+{"type":2,"message":"file_get_contents(D:\\00_Dev\\xampp_802\\htdocs\\obo_local\/.well-known\/apple-developer-merchantid-domain-association): Failed to open stream: No such file or directory","file":"D:\\00_Dev\\xampp_802\\htdocs\\obo_local\\wp-content\\plugins\\woocommerce-gateway-stripe\\includes\\class-wc-stripe-apple-pay-registration.php","line":129}
+
+May 13 2023 09:23:47
+{"type":2,"message":"file_get_contents(D:\\00_Dev\\xampp_802\\htdocs\\obo_local\/.well-known\/apple-developer-merchantid-domain-association): Failed to open stream: No such file or directory","file":"D:\\00_Dev\\xampp_802\\htdocs\\obo_local\\wp-content\\plugins\\woocommerce-gateway-stripe\\includes\\class-wc-stripe-apple-pay-registration.php","line":129}
+
